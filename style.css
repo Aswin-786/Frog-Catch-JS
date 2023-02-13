@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.grid {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns:200px 200px 200px ;
+  border: solid black 1px;
+
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  background: blue;
+}
