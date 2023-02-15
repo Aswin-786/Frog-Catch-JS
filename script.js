@@ -29,6 +29,7 @@ const windowLoad = () => {
       if(square.id == hitPosition.id) {
         result++
         score.innerText = result
+        document.getElementById('catch').play()
         // console.log(result)
         hitPosition = null
       }
